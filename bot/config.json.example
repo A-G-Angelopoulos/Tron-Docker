@@ -23,7 +23,8 @@
 		"models": "/home/bot/Tron/lib/models",
 		"commands": "/home/bot/Tron/cmds",
 		"watchers": "/home/bot/Tron/watchers",
-		"wordlist": "/home/bot/Tron/lib/wordlist.txt"
+		"events": "/home/bot/Tron/lib/events",
+		"functions": "/home/bot/Tron/lib/functions"
 	},
 	"pm2": "false"
 } 
