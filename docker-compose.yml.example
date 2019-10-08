@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   tron:
-    restart: always
+    restart: on-failure
     build: ./bot
     image: tron
     depends_on:
