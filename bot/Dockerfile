@@ -2,7 +2,7 @@
 FROM node:10
 
 # Install git
-RUN apt-get update && apt-get -qy install git
+RUN apt-get update && apt-get -qy install git && apt-get -y install ffmpeg
 
 # Add user tron
 RUN useradd -ms /sbin/nologin bot
