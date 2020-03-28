@@ -10,7 +10,7 @@ USER bot
 WORKDIR /home/bot/
 
 # Clone the bot
-RUN git clone https://github.com/A-G-Angelopoulos/Tron.git
+RUN git clone -b Music https://github.com/TRX-0/Tron.git
 # Install npm packages
 WORKDIR /home/bot/Tron
 RUN npm install &&  npm install discord.js
