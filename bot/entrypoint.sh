@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/bot/Tron/
+cd /root/Tron/
 node main.js
