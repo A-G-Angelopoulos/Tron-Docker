@@ -19,7 +19,7 @@ RUN npm install &&  npm install discord.js
 #USER root
 ADD auth.json .
 ADD config.json .
-RUN chown bot:bot /home/bot/Tron/auth.json && chown bot:bot /home/bot/Tron/config.json #&& chown bot:bot /home/bot/Tron/start.json
+#RUN chown bot:bot /home/bot/Tron/auth.json && chown bot:bot /home/bot/Tron/config.json #&& chown bot:bot /home/bot/Tron/start.json
 
 # Get entrypoint
 COPY entrypoint.sh /
