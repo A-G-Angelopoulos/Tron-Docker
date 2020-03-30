@@ -1,5 +1,5 @@
 # Get nodejs image
-FROM node:10
+FROM node:12
 
 # Install git
 RUN apt-get update && apt-get -qy install git && apt-get -y install ffmpeg
