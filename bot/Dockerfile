@@ -23,6 +23,6 @@ ADD config.json .
 
 # Get entrypoint
 COPY entrypoint.sh /
-RUN chown bot:bot /entrypoint.sh && chmod +x /entrypoint.sh
+#RUN chown bot:bot /entrypoint.sh && chmod +x /entrypoint.sh
 USER bot
 ENTRYPOINT ["/entrypoint.sh"]
