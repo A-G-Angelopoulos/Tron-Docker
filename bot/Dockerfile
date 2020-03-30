@@ -12,14 +12,14 @@ WORKDIR /home/bot/
 # Clone the bot
 RUN git clone https://github.com/TRX-0/Tron.git
 # Install npm packages
-WORKDIR /home/bot/Tron
+WORKDIR /home/bot/Tron/
 RUN npm install &&  npm install discord.js
 
 # Get auth and config
-USER root
+#USER root
 ADD auth.json .
 ADD config.json .
-RUN chown bot:bot /home/bot/Tron/auth.json && chown bot:bot /home/bot/Tron/config.json #&& chown bot:bot /home/bot/Tron/start.json && chown bot:bot /home/bot/Tron/logs/
+RUN chown bot:bot /home/bot/Tron/auth.json && chown bot:bot /home/bot/Tron/config.json #&& chown bot:bot /home/bot/Tron/start.json
 
 # Get entrypoint
 COPY entrypoint.sh /
