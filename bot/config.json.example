@@ -17,14 +17,14 @@
 	    "client_x509_cert_url": ""
 	},
 	"folders": {
-		"home": "/home/bot/Tron/",
-		"logs": "/home/bot/Tron/logs/",
-		"lib": "/home/bot/Tron/lib/",
-		"models": "/home/bot/Tron/lib/models/",
-		"commands": "/home/bot/Tron/cmds/",
-		"watchers": "/home/bot/Tron/watchers/",
-		"events": "/home/bot/Tron/lib/events/",
-		"functions": "/home/bot/Tron/lib/functions/"
+		"home": "/root/Tron",
+		"logs": "/root/Tron/logs",
+		"lib": "/root/Tron/lib",
+		"models": "/root/Tron/lib/models",
+		"commands": "/root/Tron/cmds",
+		"watchers": "/root/Tron/watchers",
+		"events": "/root/Tron/lib/events",
+		"functions": "/root/Tron/lib/functions"
 	},
 	"pm2": "false"
 } 
